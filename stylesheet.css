@@ -66,7 +66,15 @@ body {
 	top: 0;
 	right: 25px;
 	font-size: 35px;
-	margin-right: 50px;
+	margin-right: 10px;
+}
+
+.sidenav .loginbtn {
+	padding: 20px;
+	font-size: 15px;
+	position: absolute;
+	top: 0;
+	left: 25;
 }
 
 #mainPage {
@@ -77,4 +85,8 @@ body {
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;};
 	.sidenav a {font-size: 18px;}
+}
+
+.loginpage h2{
+	text-align:center;
 }
