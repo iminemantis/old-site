@@ -1,0 +1,14 @@
+:root {
+	--bgcol: #222222;
+	--txtcol: #cccccc;
+}
+
+body {
+	background-color: var(--bgcol);
+	color: var(--txtcol);
+	margin: 0px;
+}
+
+.content {
+	margin: 10px;
+}
