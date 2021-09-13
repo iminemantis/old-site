@@ -1,0 +1,15 @@
+.foot-contain{
+    width: 100vw;
+}
+.footer {
+    background-color: rgb(185, 185, 185);
+
+    position: static;
+    bottom: 0;
+
+    width: 100%;
+    padding: 1vh;
+    color: #222222;
+    box-sizing: border-box;
+    
+}

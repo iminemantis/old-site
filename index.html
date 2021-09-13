@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>main page</title>
-		<script src="comp/header.js" type="module" defer></script>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<my-header></my-header>
-		
-		<div class="content">
-			<p>text</p>
-		
-		
-		</div>
-		<div class="footer">
-		
-		</div>
-	</body>
+    <head>
+        <title>main page</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="parts/header.js" type="module" defer></script>
+        <script src="parts/footer.js" type="module" defer></script>
+        <script src="parts/sidebar.js" type="module" defer></script>
+
+    </head>
+    <body>
+        <div id="page">
+
+            <my-header></my-header>
+            
+            <div id="main-page">
+                
+                <my-sidebar></my-sidebar>
+               <script src="parts/sidebar code.js"></script>
+
+                <div id=content>
+                    <p>this is some text on the page</p>
+                </div>
+
+                <my-footer></my-footer>
+
+            </div>
+        </div>
+    </body>
 </html>
