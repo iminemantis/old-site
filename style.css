@@ -47,7 +47,14 @@ body {
 #header a:hover{
     color: #eee;
 }
+#header #main{
 
+}
+#header #main .openbtn{
+    position: fixed;
+    left: 1.75vw;
+    top: 1.75vh;
+}
 
 
 #sidebar{
